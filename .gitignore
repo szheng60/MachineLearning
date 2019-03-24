@@ -1,1 +1,6 @@
+datasets/*
+*.png
 *.csv
+.idea
+*.pdf
+*.odt
