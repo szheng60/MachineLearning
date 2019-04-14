@@ -1,6 +1,6 @@
-datasets/*
 *.png
-*.csv
 .idea
 *.pdf
 *.odt
+*.csv
+*.txt
