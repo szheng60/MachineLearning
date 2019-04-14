@@ -159,6 +159,7 @@ public class Main {
 					}
 
 				}, algorithm);
+				analysis.print();
 				break;
 			case PolicyIteration:
 				runAlgorithm(analysis, problem, domain, hashingFactory, initialState, new PlannerFactory() {
@@ -187,6 +188,7 @@ public class Main {
 						return ((PI) planner).getConvergence();
 					}
 				}, algorithm);
+				analysis.print();
 				break;
 			default:
 				double[] qinit_arr = new double[] {0, 0.1, 0.2, 0.3};//
